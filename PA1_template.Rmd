@@ -161,9 +161,10 @@ yes
 
 ## What is the impact of imputing missing data on the estimates of the total daily number of steps?
 
+```{r}
 mean(total$step)-mean(total2$step)
 median(total$step)-median(total2$step)
-
+```
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
